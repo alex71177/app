@@ -1,0 +1,216 @@
+*{
+	margin: 0px auto;
+	padding:0px;
+	box-sizing: border-box;
+
+}
+header {
+
+	text-align: center;
+	margin-top: 10px;
+	font-size: 50px;
+	font-weight: 800px;
+	color:transparent;
+	background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
+background-position: center;
+-webkit-background-clip: text;
+
+
+}
+strong h2{
+	/*esto es para poner el texto con efecto*/
+text-align: center;
+	margin-top: 5px;
+	font-size: 70px;
+	font-weight: 800px;
+	color:transparent;
+	background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
+background-position: center;
+-webkit-background-clip: text;
+padding: 10%;
+font-family: 'Playball', cursive;
+
+}
+
+.para1, .para2{
+text-align: center;
+padding: 5%;
+margin: 2Px;
+font-size: 50px;
+text-shadow:2px 3px 5px yellow;
+font-family: 'Playball', cursive;
+
+}
+nav{
+
+background: black;
+padding: 6px auto;
+border-radius: 4px;
+width: 1345px;
+height: 50px;
+position: relative;
+opacity: 0.3;
+
+
+}
+li {
+display: inline;
+font-size: 30px;
+padding: 5px;
+margin: 5px;
+}
+a {
+text-decoration: none;
+margin: 4px;
+padding: 4px;
+
+}
+h4{	
+text-align: center;
+color :blue;
+padding: 2%;
+text-shadow: 2px 3px 4px red;
+}
+img  {
+width:30px;
+height: 30px;
+float: left;
+margin: 3px;
+
+}
+section {
+	padding: 10px 5px 5px ;
+	text-align: center;
+	width: 1330px;
+	margin: 5px ;
+	font-size: 40px;
+text-align: justify;
+font-family: 'Fjalla One', sans-serif;
+}
+p{
+font-size:20px;
+color:white;
+
+}
+.menuH  a{
+	color:white;
+
+}
+.menuH  a:hover{
+	color: blue;
+}
+video{
+	
+	position:fixed;
+	min-width:100%;
+	min-height: 100%; 
+	/* para poder centrar el video */
+top:50%;
+left:50%;
+transform: translateX(-50%) translateY(-50%);
+ 
+	/* para poder detras o a delante  del video con - o + */
+	z-index: -1;
+}
+/* para el formulario de contacto */
+form {
+	
+clear: both;
+}
+h1{
+	text-align: center;
+	padding: 1%;
+	background: black;
+	color:blue; 
+	border-radius: 8px;
+	margin: 2px;
+	text-shadow: 2px 2px 4px white;
+	opacity: 0.4;
+
+
+	
+}
+/* para la bara de navegacion */
+
+
+input,label{	
+width: 400px;
+margin-left: 17%;
+padding: 10px;
+display: block;
+border-radius: 5px;
+
+}
+
+
+
+
+}
+.button: {
+	
+
+/*para mostrar la manito de cursor */
+cursor: pointer; 
+}
+textarea {
+	
+margin-left:15%;
+width: 400px;
+width: 500px;
+display: block;
+padding: 50px;
+margin-top: -230;
+border-radius: 5px;
+}
+label{
+	color: white;
+	font-size: 15px;
+
+}
+
+
+
+
+h3{
+	padding: 5px;
+	color:blue ;
+	font-size: 30px;
+}
+article{
+column-count: 4;	
+text-align: justify;
+background: black;
+opacity: 0.5;
+padding: 4pX;
+margin: 2px;
+height: 250px ;
+border-radius: 8px;
+	text-align: center;
+}
+.poli a,.pqr a,.dere a{
+color:white; 
+}
+
+.buscar {
+font-size:13px;
+float: right;
+}
+
+h1{
+color: white;
+text-align: center;
+font-size: 30px;
+}
+h5{
+color: blue;
+text-align: center;
+font-size: 30px;
+}
+h6{
+	position: fixed;
+	top: 600px;
+	z-index: 30;
+	color: blue;
+	font-size: 20px;
+	font-family: sans-serif;
+}
